@@ -1,0 +1,17 @@
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\bin\Debug\net8.0\ProductService.deps.json
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\bin\Debug\net8.0\ProductService.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\bin\Debug\net8.0\ProductService.pdb
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\bin\Debug\net8.0\LoggerService.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\bin\Debug\net8.0\Repository.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\bin\Debug\net8.0\LoggerService.pdb
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\bin\Debug\net8.0\Repository.pdb
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ProductService.csproj.AssemblyReference.cache
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ProductService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ProductService.AssemblyInfoInputs.cache
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ProductService.AssemblyInfo.cs
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ProductService.csproj.CoreCompileInputs.cache
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ProductS.A0FC5512.Up2Date
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ProductService.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\refint\ProductService.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ProductService.pdb
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ref\ProductService.dll

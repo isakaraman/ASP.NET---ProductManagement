@@ -1,0 +1,16 @@
+2024-10-15 14:07:53.1434|INFO|LoggerService.LoggerManager|This is an info
+2024-10-15 14:07:53.1688|WARN|LoggerService.LoggerManager|This is an warning message
+2024-10-15 14:07:53.1688|DEBUG|LoggerService.LoggerManager|This is a debug message
+2024-10-15 14:07:53.1688|ERROR|LoggerService.LoggerManager|This is an error message
+2024-10-15 14:41:52.6958|INFO|LoggerService.LoggerManager|This is an info
+2024-10-15 14:41:52.7175|WARN|LoggerService.LoggerManager|This is an warning message
+2024-10-15 14:41:52.7175|DEBUG|LoggerService.LoggerManager|This is a debug message
+2024-10-15 14:41:52.7175|ERROR|LoggerService.LoggerManager|This is an error message
+2024-10-15 14:43:22.3560|INFO|LoggerService.LoggerManager|This is an info
+2024-10-15 14:43:22.3731|WARN|LoggerService.LoggerManager|This is an warning message
+2024-10-15 14:43:22.3731|DEBUG|LoggerService.LoggerManager|This is a debug message
+2024-10-15 14:43:22.3731|ERROR|LoggerService.LoggerManager|This is an error message
+2024-10-15 14:43:24.7123|INFO|LoggerService.LoggerManager|This is an info
+2024-10-15 14:43:24.7123|WARN|LoggerService.LoggerManager|This is an warning message
+2024-10-15 14:43:24.7123|DEBUG|LoggerService.LoggerManager|This is a debug message
+2024-10-15 14:43:24.7123|ERROR|LoggerService.LoggerManager|This is an error message
