@@ -1,0 +1,15 @@
+2024-10-19 23:30:07.2771|ERROR|LoggerService.LoggerManager|Error in ProductService . GetAllProducts: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Repository.Models.Product, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Shared.Products.ProductDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Product -> ProductDto
+Repository.Models.Product -> Shared.Products.ProductDto
+   at lambda_method65(Closure, Product, ProductDto, ResolutionContext)
+   at lambda_method64(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method64(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.ProductService.GetAllProducts() in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\ProductService.cs:line 72

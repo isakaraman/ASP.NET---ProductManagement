@@ -15,3 +15,6 @@ C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Deb
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\refint\ProductService.dll
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ProductService.pdb
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ref\ProductService.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\bin\Debug\net8.0\Shared.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\bin\Debug\net8.0\Shared.pdb
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\obj\Debug\net8.0\ProductService.sourcelink.json

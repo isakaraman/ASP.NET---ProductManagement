@@ -145,3 +145,7 @@ C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\R
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Repository.pdb
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\ProductService.dll
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\ProductService.pdb
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Shared.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Shared.pdb
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\obj\Debug\net8.0\API.sourcelink.json
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\AutoMapper.dll

@@ -1,8 +1,11 @@
 ﻿
+using AutoMapper;
 using LoggerService;
 using Microsoft.Extensions.Logging;
 using Repository;
 using Repository.Models;
+using Shared.Products;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Services
 {
@@ -10,11 +13,13 @@ namespace Services
 	{
 		private readonly IRepositoryManager _repositoryManager;
 		private readonly ILoggerManager _logger;
+		private readonly IMapper _mapper;
 
-        public ProductService(IRepositoryManager repositoryManager,ILoggerManager loggerManager)
+        public ProductService(IRepositoryManager repositoryManager,ILoggerManager loggerManager, IMapper mapper)
         {
 			_repositoryManager = repositoryManager;
             _logger = loggerManager;
+			_mapper = mapper;
         }
 
 		public Product AddProduct(Product product)
@@ -53,12 +58,20 @@ namespace Services
 			}
 		}
 
-		public IEnumerable<Product> GetAllProducts()
+		public IEnumerable<ProductDto> GetAllProducts()
 		{
 			try
 			{
 				var products = _repositoryManager.Product.GetAllProducts();
-				return products;
+
+				if (products == null)
+				{
+					return null;
+				}
+
+				var productsDto =  _mapper.Map<IEnumerable<ProductDto>>(products);
+
+				return productsDto;
 			}
 			catch (Exception ex)
 			{

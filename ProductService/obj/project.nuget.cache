@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "77I4AVJvRHo=",
+  "dgSpecHash": "xIz+W3m1puw=",
   "success": true,
   "projectFilePath": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\ProductService\\ProductService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jesus\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\jesus\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.10\\microsoft.entityframeworkcore.8.0.10.nupkg.sha512",
     "C:\\Users\\jesus\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.10\\microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
     "C:\\Users\\jesus\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.10\\microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512",
