@@ -6,9 +6,9 @@ namespace Services
 	public interface IProductService
 	{
 		IEnumerable<ProductDto> GetAllProducts();
-		Product GetProductById(Guid productId);
+		ProductDto GetProductById(Guid productId);
 		Product AddProduct(Product product);
-		Product UpdateProduct(Product product);
+		ProductDto UpdateProduct(ProductDto product);
 		void Delete(Guid productId);
 
 	}

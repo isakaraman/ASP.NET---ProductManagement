@@ -81,18 +81,20 @@ namespace Services
 
 		}
 
-		public Product GetProductById(Guid productId)
+		public ProductDto GetProductById(Guid productId)
 		{
 			var product = _repositoryManager.Product.GetProductById(productId);
-			return product;
+			var productDto = _mapper.Map<ProductDto>(product);
+			return productDto;
 		}
 
-		public Product UpdateProduct(Product product)
+		public ProductDto UpdateProduct(ProductDto product)
 		{
 			try
 			{
 				var existingProduct = _repositoryManager.Product.GetProductById(product.ProductGuid);
-				if (existingProduct == null)
+
+				if (existingProduct is null)
 				{
 					throw new Exception($"Product Guid: {product.ProductGuid} is not existed.");
 				}
@@ -100,14 +102,14 @@ namespace Services
 				existingProduct.Title = product.Title;
 				existingProduct.Description = product.Description;
 				existingProduct.Price = product.Price;
-				existingProduct.ActualCost = product.ActualCost;
 				existingProduct.Quantity = product.Quantity;
-				existingProduct.ProductType = product.ProductType;
+				existingProduct.ProductTypeId = product.ProductTypeId;
 
 				_repositoryManager.Product.UpdateProduct(existingProduct);
 				_repositoryManager.Save();
 
-				return existingProduct;
+				product = GetProductById(product.ProductGuid);
+				return product;
 			}
 			catch (Exception ex)
 			{
