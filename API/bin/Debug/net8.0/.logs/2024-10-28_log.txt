@@ -1,0 +1,82 @@
+2024-10-28 15:27:34.2346|ERROR|LoggerService.LoggerManager|Error in ProductService . AddProduct: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ProductDto -> Product
+Shared.Products.ProductDto -> Repository.Models.Product
+   at lambda_method67(Closure, Object, Product, ResolutionContext)
+   at Services.ProductService.AddProduct(ProductDto productDto) in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\ProductService.cs:line 29
+2024-10-28 15:29:58.0575|ERROR|LoggerService.LoggerManager|Error in ProductService . AddProduct: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ProductDto -> Product
+Shared.Products.ProductDto -> Repository.Models.Product
+   at lambda_method67(Closure, Object, Product, ResolutionContext)
+   at Services.ProductService.AddProduct(ProductDto productDto) in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\ProductService.cs:line 29
+2024-10-28 16:08:29.4865|ERROR|LoggerService.LoggerManager|Error in ProductService . AddProduct: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ProductDto -> Product
+Shared.Products.ProductDto -> Repository.Models.Product
+   at lambda_method67(Closure, Object, Product, ResolutionContext)
+   at Services.ProductService.AddProduct(ProductDto productDto) in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\ProductService.cs:line 29
+2024-10-28 18:07:34.2697|ERROR|LoggerService.LoggerManager|Error in ProductService . DeleteProduct: System.Exception: Product Guid: 8f965e6f-4636-4024-8162-de8c59056074 is not existed
+   at Services.ProductService.DeleteProduct(Guid productGuid) in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\ProductService.cs:line 54
+2024-10-28 18:07:43.7916|ERROR|LoggerService.LoggerManager|EndPoint: API.Controllers.ProductController.DeleteProduct (API)
+Error: System.Exception: Product Guid: 8f965e6f-4636-4024-8162-de8c59056074 is not existed
+   at Services.ProductService.DeleteProduct(Guid productGuid) in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\ProductService.cs:line 54
+   at API.Controllers.ProductController.DeleteProduct(Guid productGuid) in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\Controllers\ProductController.cs:line 55
+   at lambda_method65(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-28 18:13:20.8320|ERROR|LoggerService.LoggerManager|Error in ProductService . DeleteProduct: Shared.Exceptions.BadRequestException: Product Guid: 8f965e6f-4636-4024-8162-de8c59056074 is not existed
+   at Services.ProductService.DeleteProduct(Guid productGuid) in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\ProductService.cs:line 55
+2024-10-28 18:13:31.1251|ERROR|LoggerService.LoggerManager|EndPoint: API.Controllers.ProductController.DeleteProduct (API)
+Error: Shared.Exceptions.BadRequestException: Product Guid: 8f965e6f-4636-4024-8162-de8c59056074 is not existed
+   at Services.ProductService.DeleteProduct(Guid productGuid) in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\ProductService.cs:line 55
+   at API.Controllers.ProductController.DeleteProduct(Guid productGuid) in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\Controllers\ProductController.cs:line 55
+   at lambda_method65(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-28 23:25:35.0750|ERROR|LoggerService.LoggerManager|EndPoint: API.Controllers.ProductController.GetProductById (API)
+Error: Shared.Exceptions.NotFoundException: Product Guid: f547f2db-cb72-4ad2-a031-b68045a2fe13 doesn't exist.
+   at Services.ProductService.GetProductById(Guid productGuid) in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\ProductService\ProductService.cs:line 97
+   at API.Controllers.ProductController.GetProductById(Guid productGuid) in C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\Controllers\ProductController.cs:line 32
+   at lambda_method65(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)

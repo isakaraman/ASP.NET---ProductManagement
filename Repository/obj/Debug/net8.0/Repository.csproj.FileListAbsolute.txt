@@ -10,3 +10,4 @@ C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\Repository\obj\Debug\n
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\Repository\obj\Debug\net8.0\refint\Repository.dll
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\Repository\obj\Debug\net8.0\Repository.pdb
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\Repository\obj\Debug\net8.0\Repository.sourcelink.json

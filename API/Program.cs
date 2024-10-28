@@ -1,4 +1,5 @@
 using API.Extensions;
+using LoggerService;
 using NLog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +20,9 @@ builder.Services.AddControllers();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+var logger = app.Services.GetRequiredService<ILoggerManager>();
+app.ConfigureExceptionHandler(logger);
+
 app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();

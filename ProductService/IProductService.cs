@@ -7,9 +7,9 @@ namespace Services
 	{
 		IEnumerable<ProductDto> GetAllProducts();
 		ProductDto GetProductById(Guid productId);
-		Product AddProduct(Product product);
+		ProductDto AddProduct(ProductDto product);
 		ProductDto UpdateProduct(ProductDto product);
-		void Delete(Guid productId);
+		void DeleteProduct(Guid productId);
 
 	}
 }

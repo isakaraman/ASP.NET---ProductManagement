@@ -41,5 +41,21 @@ namespace API.Controllers
 			return Ok(newProduct);
 		}
 
+		[HttpPost]
+		public IActionResult AddProduct(ProductDto product)
+		{
+			product.ProductGuid = Guid.NewGuid();
+			var newProduct = _service.AddProduct(product);
+			return Ok();
+		}
+
+		[HttpDelete("{productGuid:Guid}")]
+		public IActionResult DeleteProduct(Guid productGuid)
+		{
+			_service.DeleteProduct(productGuid);
+
+			return Ok();
+		}
+
 	}
 }

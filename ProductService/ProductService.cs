@@ -4,6 +4,7 @@ using LoggerService;
 using Microsoft.Extensions.Logging;
 using Repository;
 using Repository.Models;
+using Shared.Exceptions;
 using Shared.Products;
 using System.Reflection.Metadata.Ecma335;
 
@@ -22,13 +23,19 @@ namespace Services
 			_mapper = mapper;
         }
 
-		public Product AddProduct(Product product)
+		public ProductDto AddProduct(ProductDto productDto)
 		{
 			try
 			{
+				var product = _mapper.Map<Product>(productDto);
+
 				var newProduct = _repositoryManager.Product.AddProduct(product);
+
 				_repositoryManager.Save();
-				return newProduct;
+
+				var newProductDto = _mapper.Map<ProductDto>(newProduct);
+
+				return newProductDto;
 			}
 			catch(Exception ex) 
 			{
@@ -38,14 +45,14 @@ namespace Services
 
 		}
 
-		public void Delete(Guid productId)
+		public void DeleteProduct(Guid productGuid)
 		{
 			try
 			{
-				var productToDelete = _repositoryManager.Product.GetProductById(productId);
+				var productToDelete = _repositoryManager.Product.GetProductById(productGuid);
 				if(productToDelete == null)
 				{
-					throw new Exception($"Product Guid: {productId} is not existed");
+					throw new BadRequestException($"Product Guid: {productGuid} is not existed");
 
 				}
 				_repositoryManager.Product.DeleteProduct(productToDelete);
@@ -53,7 +60,7 @@ namespace Services
 			}
 			catch (Exception ex)
 			{
-				_logger.LogError($"Error in {nameof(ProductService)} . {nameof(Delete)}: {ex}");
+				_logger.LogError($"Error in {nameof(ProductService)} . {nameof(DeleteProduct)}: {ex}");
 				throw;
 			}
 		}
@@ -81,9 +88,14 @@ namespace Services
 
 		}
 
-		public ProductDto GetProductById(Guid productId)
+		public ProductDto GetProductById(Guid productGuid)
 		{
-			var product = _repositoryManager.Product.GetProductById(productId);
+			var product = _repositoryManager.Product.GetProductById(productGuid);
+
+			if(product is null)
+			{
+				throw new NotFoundException($"Product Guid: {productGuid} doesn't exist.");
+			}
 			var productDto = _mapper.Map<ProductDto>(product);
 			return productDto;
 		}
@@ -96,7 +108,7 @@ namespace Services
 
 				if (existingProduct is null)
 				{
-					throw new Exception($"Product Guid: {product.ProductGuid} is not existed.");
+					throw new BadRequestException($"Product Guid: {product.ProductGuid} is not existed.");
 				}
 
 				existingProduct.Title = product.Title;
