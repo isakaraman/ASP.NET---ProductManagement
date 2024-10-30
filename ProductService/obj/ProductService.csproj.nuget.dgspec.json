@@ -190,7 +190,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Shared\\Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -263,11 +267,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Repository\\Repository.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

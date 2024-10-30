@@ -1,4 +1,6 @@
-﻿using Repository.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using Repository.Models;
+using Shared.Paging;
 
 namespace Repository.Products
 {
@@ -12,9 +14,14 @@ namespace Repository.Products
 
 		public void DeleteProduct(Product product) => Delete(product);
 
-		public IEnumerable<Product> GetAllProducts() => FindAll().OrderBy(x => x.Title).ToList();
+		public async Task<IEnumerable<Product>> GetAllProductsAsync(RequestParameter requestParameter) => 
+			await FindAll()
+			.OrderBy(x => x.Title)
+			.Skip((requestParameter.PageNumber - 1) * requestParameter.PageSize)
+			.Take(requestParameter.PageSize)
+			.ToListAsync();
 	
-		public Product GetProductById(Guid productGuid) => FindByCondition(x => x.ProductGuid == productGuid).FirstOrDefault();
+		public async Task<Product> GetProductByIdAsync(Guid productGuid) => await FindByCondition(x => x.ProductGuid == productGuid).FirstOrDefaultAsync();
 
 		public void UpdateProduct(Product product) => Update(product);
 

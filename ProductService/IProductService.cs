@@ -1,15 +1,16 @@
 ﻿using Repository.Models;
+using Shared.Paging;
 using Shared.Products;
 
 namespace Services
 {
 	public interface IProductService
 	{
-		IEnumerable<ProductDto> GetAllProducts();
-		ProductDto GetProductById(Guid productId);
-		ProductDto AddProduct(ProductDto product);
-		ProductDto UpdateProduct(ProductDto product);
-		void DeleteProduct(Guid productId);
+		Task<IEnumerable<ProductDto>> GetAllProductsAsync(RequestParameter requestParameter);
+		Task<ProductDto> GetProductByIdAsync(Guid productId, int? versionNumber=null);
+		Task<ProductDto> AddProductAsync(ProductDto product);
+		Task<ProductDto> UpdateProductAsync(ProductDto product);
+		Task DeleteProductAsync(Guid productId);
 
 	}
 }

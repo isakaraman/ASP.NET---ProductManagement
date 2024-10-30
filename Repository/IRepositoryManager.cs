@@ -7,6 +7,6 @@ namespace Repository
 	{
 		IProductRepository Product {  get; }
 
-		void Save();
+		Task SaveAsync();
 	}
 }

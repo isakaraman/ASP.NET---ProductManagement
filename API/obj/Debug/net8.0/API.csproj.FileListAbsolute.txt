@@ -149,3 +149,14 @@ C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\S
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Shared.pdb
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\obj\Debug\net8.0\API.sourcelink.json
 C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\bin\Debug\net8.0\API.xml
+C:\Users\jesus\Desktop\ASP.Net Projects\ProductManagement\API\obj\Debug\net8.0\API.xml

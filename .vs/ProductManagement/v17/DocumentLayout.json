@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81B4F7D6-BB41-4A76-BEC9-8C6624E92B9F}|ProductService\\ProductService.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\productservice\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B4F7D6-BB41-4A76-BEC9-8C6624E92B9F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81B4F7D6-BB41-4A76-BEC9-8C6624E92B9F}|ProductService\\ProductService.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\productservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B4F7D6-BB41-4A76-BEC9-8C6624E92B9F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\api\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|solutionrelative:api\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140440CD-673B-4014-97A0-123454A30D51}|Shared\\Shared.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\shared\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{140440CD-673B-4014-97A0-123454A30D51}|Shared\\Shared.csproj|solutionrelative:shared\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CA2FD9E-3610-4B48-9A8B-C7B09EBAA449}|Repository\\Repository.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\repository\\product\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CA2FD9E-3610-4B48-9A8B-C7B09EBAA449}|Repository\\Repository.csproj|solutionrelative:repository\\product\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{140440CD-673B-4014-97A0-123454A30D51}|Shared\\Shared.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\shared\\errormodel\\errordetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{140440CD-673B-4014-97A0-123454A30D51}|Shared\\Shared.csproj|solutionrelative:shared\\errormodel\\errordetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{140440CD-673B-4014-97A0-123454A30D51}|Shared\\Shared.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\shared\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{140440CD-673B-4014-97A0-123454A30D51}|Shared\\Shared.csproj|solutionrelative:shared\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|solutionrelative:api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|solutionrelative:api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|solutionrelative:api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B4F7D6-BB41-4A76-BEC9-8C6624E92B9F}|ProductService\\ProductService.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\productservice\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B4F7D6-BB41-4A76-BEC9-8C6624E92B9F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\api\\controllers\\v2\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E513B5-820F-4CF1-AD9A-4FD74E9B03D8}|API\\API.csproj|solutionrelative:api\\controllers\\v2\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B4F7D6-BB41-4A76-BEC9-8C6624E92B9F}|ProductService\\ProductService.csproj|c:\\users\\jesus\\desktop\\asp.net projects\\productmanagement\\productservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B4F7D6-BB41-4A76-BEC9-8C6624E92B9F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,119 +58,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Shared\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "Shared\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Shared\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "Shared\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T19:57:39.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BadRequestException.cs",
-              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Shared\\Exceptions\\BadRequestException.cs",
-              "RelativeDocumentMoniker": "Shared\\Exceptions\\BadRequestException.cs",
-              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Shared\\Exceptions\\BadRequestException.cs",
-              "RelativeToolTip": "Shared\\Exceptions\\BadRequestException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T15:09:02.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ErrorDetail.cs",
-              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Shared\\ErrorModel\\ErrorDetail.cs",
-              "RelativeDocumentMoniker": "Shared\\ErrorModel\\ErrorDetail.cs",
-              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Shared\\ErrorModel\\ErrorDetail.cs",
-              "RelativeToolTip": "Shared\\ErrorModel\\ErrorDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T15:04:21.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "API\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\WeatherForecast.cs",
-              "RelativeToolTip": "API\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T14:59:02.311Z",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T20:37:28.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ExceptionMiddlewareExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Extensions\\ExceptionMiddlewareExtensions.cs",
-              "RelativeDocumentMoniker": "API\\Extensions\\ExceptionMiddlewareExtensions.cs",
-              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Extensions\\ExceptionMiddlewareExtensions.cs",
-              "RelativeToolTip": "API\\Extensions\\ExceptionMiddlewareExtensions.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAewBQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:55:11.394Z",
+              "Title": "API",
+              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-30T20:36:22.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Repository\\Product\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Product\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\Repository\\Product\\IProductRepository.cs",
-              "RelativeToolTip": "Repository\\Product\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T12:22:28.492Z",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T20:09:57.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\ProductService\\IProductService.cs",
-              "RelativeDocumentMoniker": "ProductService\\IProductService.cs",
-              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\ProductService\\IProductService.cs",
-              "RelativeToolTip": "ProductService\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAMAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:15:56.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\ProductService\\ProductService.cs",
-              "RelativeDocumentMoniker": "ProductService\\ProductService.cs",
-              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\ProductService\\ProductService.cs",
-              "RelativeToolTip": "ProductService\\ProductService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:08:48.091Z",
+              "WhenOpened": "2024-10-30T19:29:43.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\ProductService\\IProductService.cs",
+              "RelativeDocumentMoniker": "ProductService\\IProductService.cs",
+              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\ProductService\\IProductService.cs",
+              "RelativeToolTip": "ProductService\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:48:30.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\ProductService\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.cs",
+              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\ProductService\\ProductService.cs",
+              "RelativeToolTip": "ProductService\\ProductService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAIwFsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:26:35.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "API\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "API\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:20:00.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Controllers\\V2\\ProductController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\V2\\ProductController.cs",
+              "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Controllers\\V2\\ProductController.cs",
+              "RelativeToolTip": "API\\Controllers\\V2\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:07:27.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\jesus\\Desktop\\ASP.Net Projects\\ProductManagement\\API\\Controllers\\ProductController.cs",
               "RelativeToolTip": "API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAywDQAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T20:16:44.521Z",
+              "WhenOpened": "2024-10-30T14:05:49.838Z",
               "EditorCaption": ""
             }
           ]
